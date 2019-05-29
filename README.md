@@ -1,0 +1,2 @@
+# editorConfig
+vscode ,vim config
