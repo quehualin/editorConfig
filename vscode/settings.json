@@ -25,7 +25,7 @@
     "vim.insertModeKeyBindings": [
         {
             "before": [
-                "j",
+                "z",
                 "j"
             ],
             "after": [
@@ -36,8 +36,8 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "Z",
-                "Z"
+                "q",
+                "q"
             ],
             "after": [],
             "commands": [
@@ -169,6 +169,15 @@
         // "<C-w>": false
     },
     "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "z",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
     ],
 
     "C_Cpp.updateChannel": "Insiders",
