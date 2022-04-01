@@ -1,0 +1,7 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="C:\soft\Git\bin\bash.exe" />
+    <option name="mySoundBell" value="false" />
+    <option name="myTabName" value="Local" />
+  </component>
+</application>
