@@ -5,8 +5,9 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EditorDeleteLine" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.UpdateProject" />
 </keymap>
