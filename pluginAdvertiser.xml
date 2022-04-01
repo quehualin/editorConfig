@@ -2433,6 +2433,11 @@
                       <FeaturePluginData displayName="Quarkus" pluginName="Quarkus" pluginId="com.intellij.quarkus" />
                     </value>
                   </entry>
+                  <entry key="RUN_ANYTHING_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="Run Command" pluginName="RunAnything" pluginId="io.github.aveenstra.run-anything" />
+                    </value>
+                  </entry>
                   <entry key="ReactNative">
                     <value>
                       <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
