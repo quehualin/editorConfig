@@ -48,6 +48,7 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="mongo">
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.13" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlserver.ms">
