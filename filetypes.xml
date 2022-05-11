@@ -6,10 +6,11 @@
       <mapping ext="cfg" type="Erlang Terms" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="*.lua.txt" type="lua" />
       <mapping pattern="*.proto.txt" type="protobuf" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping pattern="*.lua.txt" type="lua" />
+      <mapping pattern="*.proto.txt" type="protobuf" />
     </extensionMap>
   </component>
 </application>
