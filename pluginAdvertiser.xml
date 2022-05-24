@@ -1135,6 +1135,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.makefile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intuit.intellij.makefile" />
+              <option name="myPluginName" value="DockDockBuild" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.markdown">
           <value>
             <plugin>
@@ -1177,6 +1185,14 @@
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.mk">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intuit.intellij.makefile" />
+              <option name="myPluginName" value="DockDockBuild" />
             </plugin>
           </value>
         </entry>
@@ -2250,6 +2266,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="makefile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intuit.intellij.makefile" />
+              <option name="myPluginName" value="DockDockBuild" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="maven.config">
           <value>
             <plugin>
@@ -2496,6 +2520,11 @@
                   <entry key="DatabaseScript">
                     <value>
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                    </value>
+                  </entry>
+                  <entry key="DockDockBuildRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="DockDockBuild" pluginName="DockDockBuild" pluginId="com.intuit.intellij.makefile" />
                     </value>
                   </entry>
                   <entry key="ErlangApplicationRunConfiguration">
