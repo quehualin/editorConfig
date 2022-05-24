@@ -17,6 +17,9 @@
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="EditorDeleteLine" />
+  <action id="Erlang.NewErlangFile">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -26,12 +29,13 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
-  <action id="NewModule">
-    <keyboard-shortcut first-keystroke="ctrl n" />
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
