@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="cs" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="C:\T21\P35\ms_编译服务端.bat" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="C:/T21/P35" />
-    </exec>
-  </tool>
-</toolSet>
