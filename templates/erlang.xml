@@ -1,0 +1,7 @@
+<templateSet group="erlang">
+  <template name="t" value="?t(fun()-&gt;&#10;    $SELECTION$&#10;end)," description="transcation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
