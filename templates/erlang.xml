@@ -4,4 +4,20 @@
       <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
+  <template name="iof" value="io:format(&quot;$PATTERN$:~p~n&quot;, [$VALUES$]),$END$" description="io:format" toReformat="false" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="iof2" value="io:format(&quot;$PATTERN$:~p,$PATTERN2$:~p~n&quot;, [$VALUES$, $VALUES2$]),$END$" description="iof2" toReformat="false" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATTERN2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
