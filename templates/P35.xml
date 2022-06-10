@@ -1,5 +1,6 @@
-<templateSet group="erlang">
-  <template name="t" value="?t(fun()-&gt;&#10;    $SELECTION$&#10;end)," description="transcation" toReformat="false" toShortenFQNames="true">
+<templateSet group="P35">
+  <template name="dbr" value="Data = db:read($Tab$, Rid)," description="read database" toReformat="false" toShortenFQNames="true">
+    <variable name="Tab" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ERLANG_CODE" value="true" />
     </context>
@@ -16,6 +17,17 @@
     <variable name="PATTERN2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUES2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="t" value="?t(fun()-&gt;&#10;    $SELECTION$&#10;end)," description="transcation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="$COMMENTSTART$()" description="comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENTSTART" expression="lineCommentStart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ERLANG_CODE" value="true" />
     </context>
