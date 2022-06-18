@@ -49,21 +49,28 @@
       <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
-  <template name="as" value="kit:assert($TRUE$, error:err_$ERRCODE$)," toReformat="false" toShortenFQNames="true">
+  <template name="as" value="kit:assert($TRUE$, error:err_$ERRCODE$)," description="assert condition" toReformat="false" toShortenFQNames="true">
     <variable name="TRUE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ERRCODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
-  <template name="ade" value="Change = award_db:decr(Rid, 1, $DescL$)," toReformat="false" toShortenFQNames="true">
+  <template name="ade" value="Change = award_db:decr(Rid, 1, $DescL$)," description="cost resource" toReformat="false" toShortenFQNames="true">
     <variable name="DescL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ERLANG_CODE" value="true" />
     </context>
   </template>
-  <template name="&lt;abbreviation&gt;" value="Change = award_db:incr(Rid, 1, $IncrL$)," toReformat="false" toShortenFQNames="true">
+  <template name="ain" value="Change = award_db:incr(Rid, 1, $IncrL$)," description="add resource" toReformat="false" toShortenFQNames="true">
     <variable name="IncrL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="eno" value="event:notify(role, $TYPE$, $ARGS$),$END$" description="notify event" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="Type" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="EventArgs" alwaysStopAt="true" />
     <context>
       <option name="ERLANG_CODE" value="true" />
     </context>
