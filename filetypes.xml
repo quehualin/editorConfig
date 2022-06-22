@@ -5,6 +5,7 @@
       <mapping ext="escript" type="Erlang" />
       <mapping pattern="Emakefile" type="Erlang Terms" />
       <mapping ext="cfg" type="Erlang Terms" />
+      <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping pattern="*.proto.txt" type="protobuf" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
