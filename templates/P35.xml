@@ -1,0 +1,78 @@
+<templateSet group="P35">
+  <template name="dbr" value="Data = db:read($Tab$, Rid)," description="read database" toReformat="true" toShortenFQNames="true">
+    <variable name="Tab" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="iof" value="io:format(&quot;$PATTERN$:~p~n&quot;, [$VALUES$]),$END$" description="io:format" toReformat="true" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="iof2" value="io:format(&quot;$PATTERN$:~p,$PATTERN2$:~p~n&quot;, [$VALUES$, $VALUES2$]),$END$" description="io:format" toReformat="true" toShortenFQNames="true">
+    <variable name="PATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATTERN2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUES2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="t" value="?t(fun()-&gt;&#10;    $SELECTION$&#10;end)," description="transcation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="$COMMENTSTART$()" description="comment" toReformat="true" toShortenFQNames="true">
+    <variable name="COMMENTSTART" expression="lineCommentStart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dbw" value="db:write($Tab$, Rid, $Data$)," description="write datebase" toReformat="true" toShortenFQNames="true">
+    <variable name="Tab" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Data" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cinc" value="%%%===============================INCLUDE================================&#10;" description="include comment" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cexp" value="%%%===============================EXPORT================================&#10;" description="export comment" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="as" value="kit:assert($TRUE$, error:err_$ERRCODE$)," description="assert condition" toReformat="true" toShortenFQNames="true">
+    <variable name="TRUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ERRCODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ade" value="Change = award_db:decr(Rid, 1, $DescL$)," description="cost resource" toReformat="true" toShortenFQNames="true">
+    <variable name="DescL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ain" value="Change = award_db:incr(Rid, 1, $IncrL$)," description="add resource" toReformat="true" toShortenFQNames="true">
+    <variable name="IncrL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+  <template name="eno" value="event:notify(role, $TYPE$, $ARGS$),$END$" description="notify event" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="Type" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="EventArgs" alwaysStopAt="true" />
+    <context>
+      <option name="ERLANG_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -2,15 +2,18 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="script" type="Erlang" />
+      <mapping ext="escript" type="Erlang" />
       <mapping pattern="Emakefile" type="Erlang Terms" />
       <mapping ext="cfg" type="Erlang Terms" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="*.proto.txt" type="protobuf" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="boot" type="PLAIN_TEXT" />
       <mapping pattern="*.lua.txt" type="lua" />
       <mapping pattern="*.proto.txt" type="protobuf" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="cfg" approved="true" type="Ini" />
+      <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>

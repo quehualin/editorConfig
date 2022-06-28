@@ -29,14 +29,10 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
-  <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
-  <action id="NewFile">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
-  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
