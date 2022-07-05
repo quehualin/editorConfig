@@ -1,0 +1,9 @@
+<application>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="C:/P35/client/build/xlua" />
+      </list>
+    </option>
+  </component>
+</application>
