@@ -11,7 +11,7 @@
     <mask>*.java</mask>
     <mask>*.cfg</mask>
     <mask>*.txt</mask>
-    <mask>*.hrl</mask>
     <mask>*.erl</mask>
+    <mask>*.hrl</mask>
   </component>
 </application>
