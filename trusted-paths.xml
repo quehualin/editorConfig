@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="C:/P35/client/build/xlua" />
+        <option value="$USER_HOME$/Downloads/glibc-master/glibc-master" />
       </list>
     </option>
   </component>
