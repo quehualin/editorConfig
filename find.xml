@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.c" />
+    <option name="FILE_MASK" value="*.txt" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -11,9 +11,8 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*.cfg</mask>
-    <mask>*.txt</mask>
-    <mask>*.erl</mask>
     <mask>*.hrl</mask>
-    <mask>*.c</mask>
+    <mask>*.erl</mask>
+    <mask>*.txt</mask>
   </component>
 </application>
