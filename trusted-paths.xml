@@ -4,6 +4,7 @@
       <list>
         <option value="C:/P35/client/build/xlua" />
         <option value="$USER_HOME$/Downloads/glibc-master/glibc-master" />
+        <option value="$USER_HOME$/Desktop" />
       </list>
     </option>
   </component>
