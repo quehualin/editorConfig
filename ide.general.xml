@@ -7,7 +7,6 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="IdeaVim-Icon" value="false" />
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="TypeScriptInfo" value="false" />
         <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
