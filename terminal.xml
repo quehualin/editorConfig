@@ -1,6 +1,8 @@
 <application>
   <component name="TerminalOptionsProvider">
+    <option name="myPasteOnMiddleMouseButton" value="false" />
+    <option name="myShellPath" value="C:\Windows\system32\cmd.exe" />
     <option name="mySoundBell" value="false" />
-    <option name="myTabName" value="Local" />
+    <option name="myTabName" value="project" />
   </component>
 </application>
