@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="protoc-erl" type="AUTO_DETECTED" />
       <mapping pattern="lowestCommonAnces" type="AUTO_DETECTED" />
+      <mapping ext="bat" type="AUTO_DETECTED" />
       <mapping ext="script" type="Erlang" />
       <mapping ext="escript" type="Erlang" />
       <mapping pattern="Emakefile" type="Erlang Terms" />
