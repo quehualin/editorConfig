@@ -8,11 +8,7 @@
         <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="ubuntu" />
       </webServer>
       <webServer id="14892967-3efc-4dd8-b127-6484567f8b0c" name="ubuntu (14892967-3efc-4dd8-b127-6484567f8b0c)" url="http:///">
-        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="ubuntu">
-          <advancedOptions>
-            <advancedOptions isUseRsync="true" />
-          </advancedOptions>
-        </fileTransfer>
+        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="ubuntu" />
       </webServer>
     </option>
     <groups>
