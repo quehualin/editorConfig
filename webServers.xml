@@ -2,10 +2,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="5c96cc3e-4f8f-47be-a0c8-ab6f9a8f2e9a" name="WSL (5c96cc3e-4f8f-47be-a0c8-ab6f9a8f2e9a)" url="http:///">
-        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="ubuntu" />
+        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="quehl@192.168.3.73:22 password" />
       </webServer>
       <webServer id="9afbd0f8-9872-490c-a69d-57b923c6a239" name="Remote GDB Server (9afbd0f8-9872-490c-a69d-57b923c6a239)" url="http:///">
-        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="ubuntu" />
+        <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="quehl@192.168.3.73:22 password" />
       </webServer>
       <webServer id="14892967-3efc-4dd8-b127-6484567f8b0c" name="ubuntu (14892967-3efc-4dd8-b127-6484567f8b0c)" url="http:///">
         <fileTransfer accessType="SFTP" host="192.168.3.73" port="22" sshConfigId="dceb5f8b-a702-4f8e-8257-b18e062ba621" sshConfig="quehl@192.168.3.73:22 password" />

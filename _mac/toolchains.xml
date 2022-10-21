@@ -1,8 +1,8 @@
 <application>
   <component name="CPPToolchains" version="8">
     <toolchains detectedVersion="5">
-      <toolchain name="ubuntu" toolSetKind="REMOTE" customCMakePath="/usr/bin/cmake" hostId="14892967-3efc-4dd8-b127-6484567f8b0c" sshConfigName="ubuntu" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
       <toolchain name="Default" toolSetKind="SYSTEM_UNIX_TOOLSET" debuggerKind="BUNDLED_LLDB" />
+      <toolchain name="ubuntu" toolSetKind="REMOTE" customCMakePath="/usr/bin/cmake" hostId="14892967-3efc-4dd8-b127-6484567f8b0c" sshConfigName="quehl@192.168.3.73:22 password" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
     </toolchains>
   </component>
 </application>
